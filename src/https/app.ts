@@ -1,7 +1,7 @@
 import fastify from "fastify";
 import fastifyCors from "@fastify/cors";
 import { Email } from "../routes/email/email";
-import { Post } from "@/routes/post/post";
+import { Post } from "../routes/post/post";
 
 export const app = fastify();
 
